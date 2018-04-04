@@ -1,0 +1,52 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on small devices */
+html {
+  font-size: 81.3%; 
+}
+
+.view-display-id-apple, .view-display-id-notebook {
+  display: none;
+}
+
+.front #why h2 {
+  padding: 90px 0;
+  font-size: 40px;
+   
+  h2 {
+    text-align: center;
+  } 
+}
+
+#mini-panel-why {
+  padding: 35px 10px 35px 10px;
+  
+  h2 {
+    text-align: center;
+  }
+}
+
+#our-skills {
+  .skills-description {
+    padding-left: 0;
+  }
+}
+
+.img-wrap {
+  /* arrow */
+  &:after {
+    display: none;
+  }
+}

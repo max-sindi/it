@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Placemark id="22.1.2">
+	<name>IT-Alliance: Ремонт Iphone, Ipod, Ipad. Сервисный центр Apple.</name>
+	<address>пр-т Григоренко, 39Б, 2 этаж, оф. 27, Київ, Ukraine, 02000</address>
+	<phoneNumber>044 360 0807</phoneNumber>
+	<snippet>пр-т Григоренко, 39Б, 2 этаж, оф. 27, Київ, Ukraine, 02000</snippet>
+	<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="http://maps.google.com/maps/place?latlng=50392808,30638006,1273812140905177958&hl=uk&gl=ua&ui=earth&view=teaser";</script></body></html>]]></description>
+	<styleUrl>#listing_A</styleUrl>
+	<ExtendedData>
+		<Data name="placepageUri">
+			<value>http://maps.google.com/maps/place?latlng=50392808,30638006,1273812140905177958&amp;hl=uk&amp;gl=ua&amp;ui=earth&amp;view=teaser</value>
+		</Data>
+	</ExtendedData>
+	<gx:balloonVisibility>1</gx:balloonVisibility>
+	<MultiGeometry>
+		<Point>
+			<coordinates>30.638006,50.392808,0</coordinates>
+		</Point>
+		<LinearRing>
+			<coordinates>
+				30.6092276,50.3640296,0 30.6092276,50.4215864,0 30.6667844,50.4215864,0 30.6667844,50.3640296,0 30.6092276,50.3640296,0 
+			</coordinates>
+		</LinearRing>
+	</MultiGeometry>
+	<AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>UA</CountryNameCode><Locality><LocalityName>Київ</LocalityName><AddressLine>пр-т Григоренко, 39Б, 2 этаж, оф. 27</AddressLine><PostalCode><PostalCodeNumber>02000</PostalCodeNumber></PostalCode></Locality></Country></AddressDetails>
+</Placemark>
+</kml>

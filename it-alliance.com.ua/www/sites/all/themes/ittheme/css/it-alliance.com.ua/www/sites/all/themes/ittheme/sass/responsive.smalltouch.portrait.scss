@@ -1,0 +1,149 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the default font size on small touch devices */
+body {
+  font-size: 100%;
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+.at-mt .at-menu-toggle {
+  /* The toggle link */
+  h2 {
+    margin-bottom: 5px;
+    
+    a {
+      background: #eee;
+      border: 2px solid #ccc;
+      padding: 2px 10px;
+    }
+  }
+
+  /* Menu items */
+  ul.menu li a {
+    background: #eee;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+.view-display-id-apple, .view-display-id-notebook, .pane-views-categories-pc, .pane-views-categories-phone  {
+  display: none;
+}
+
+/* Page title  */
+.front #top p { 
+  padding-bottom: 60px; 
+}
+
+.front #page-title {
+  font-size: 25px; 
+}
+
+.front #why h2 {
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+/* Why panel */ 
+#mini-panel-why{
+  padding: 35px 10px;
+  
+  h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .region-three-33-top .block-content p {
+  
+    &:first-child {
+      font-size: 13px;
+    }
+    
+    &:nth-child(2){
+      font-size: 13px;
+    }
+  }
+  
+  .region-three-33-first, .region-three-33-second, .region-three-33-third {
+    
+    .block-content {
+      padding-bottom: 14px;
+      
+      p:first-child {
+        font-size: 14px;
+        
+        &:before {
+          font-size: 32px;
+        }
+      }
+      
+      p:nth-child(2) {
+        margin-left: 37px;
+        font-size: 9px;
+      } 
+      p:nth-child(3) {
+        font-size: 11px;
+      }
+    }
+  } 
+}
+
+/* Our skils */
+#our-skills {
+
+  h2 {
+    font-size: 20px;
+  }
+  
+  .skills-description {
+    font-size: 12px;
+  }
+}
+
+/* Stage works */
+#stage-works {
+  
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* Trust us */
+#trust-us {
+  
+  h2 {
+    font-size: 22px;
+    margin: 70px 0 30px 0; 
+  }
+  
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+/* Find us */ 
+#find-us {
+  h2 {
+    font-size: 22px
+  }
+  
+  p:first-child {
+    font-size: 14px;
+  } 
+}

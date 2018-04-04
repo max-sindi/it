@@ -1,0 +1,166 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small touch devices */
+/* line 16, ../sass/responsive.smalltouch.landscape.scss */
+body {
+  font-size: 100%;
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+/* Page title  */
+/* line 28, ../sass/responsive.smalltouch.landscape.scss */
+.front #top p {
+  padding-bottom: 100px;
+}
+
+/* line 33, ../sass/responsive.smalltouch.landscape.scss */
+.at-mt .at-menu-toggle {
+  /* The toggle link */
+  /* Menu items */
+}
+/* line 35, ../sass/responsive.smalltouch.landscape.scss */
+.at-mt .at-menu-toggle h2 {
+  margin-bottom: 5px;
+}
+/* line 38, ../sass/responsive.smalltouch.landscape.scss */
+.at-mt .at-menu-toggle h2 a {
+  background: #eee;
+  border: 2px solid #ccc;
+  padding: 2px 10px;
+}
+/* line 46, ../sass/responsive.smalltouch.landscape.scss */
+.at-mt .at-menu-toggle ul.menu li a {
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 52, ../sass/responsive.smalltouch.landscape.scss */
+.view-display-id-apple, .view-display-id-notebook, .pane-views-categories-pc, .pane-views-categories-phone {
+  display: none;
+}
+
+/* line 56, ../sass/responsive.smalltouch.landscape.scss */
+.front #why h2 {
+  padding: 80px 0;
+  font-size: 30px;
+}
+/* line 60, ../sass/responsive.smalltouch.landscape.scss */
+.front #why h2 h2 {
+  text-align: center;
+}
+
+/* Why panel */
+/* line 66, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why {
+  padding: 35px 10px 35px 10px;
+}
+/* line 69, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why h2 {
+  font-size: 25px;
+  text-align: center;
+}
+/* line 76, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-top .block-content p:first-child {
+  font-size: 20px;
+}
+/* line 80, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-top .block-content p:nth-child(2) {
+  font-size: 18px;
+}
+/* line 87, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-first .block-content, #mini-panel-why .region-three-33-second .block-content, #mini-panel-why .region-three-33-third .block-content {
+  padding-bottom: 20px;
+}
+/* line 90, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-first .block-content p:first-child, #mini-panel-why .region-three-33-second .block-content p:first-child, #mini-panel-why .region-three-33-third .block-content p:first-child {
+  font-size: 20px;
+}
+/* line 93, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-first .block-content p:first-child:before, #mini-panel-why .region-three-33-second .block-content p:first-child:before, #mini-panel-why .region-three-33-third .block-content p:first-child:before {
+  font-size: 50px;
+}
+/* line 98, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-first .block-content p:nth-child(2), #mini-panel-why .region-three-33-second .block-content p:nth-child(2), #mini-panel-why .region-three-33-third .block-content p:nth-child(2) {
+  margin-left: 37px;
+  font-size: 13px;
+}
+/* line 102, ../sass/responsive.smalltouch.landscape.scss */
+#mini-panel-why .region-three-33-first .block-content p:nth-child(3), #mini-panel-why .region-three-33-second .block-content p:nth-child(3), #mini-panel-why .region-three-33-third .block-content p:nth-child(3) {
+  font-size: 12px;
+}
+
+/* Our skils */
+/* line 113, ../sass/responsive.smalltouch.landscape.scss */
+#our-skills h2 {
+  font-size: 25px;
+}
+/* line 117, ../sass/responsive.smalltouch.landscape.scss */
+#our-skills .skills-description {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+/* Stage works */
+/* line 126, ../sass/responsive.smalltouch.landscape.scss */
+#stage-works h2 {
+  font-size: 25px;
+}
+
+/* Trust us */
+/* line 134, ../sass/responsive.smalltouch.landscape.scss */
+#trust-us h2 {
+  font-size: 35px;
+  margin: 100px 0 30px 0;
+}
+/* line 139, ../sass/responsive.smalltouch.landscape.scss */
+#trust-us img {
+  margin-bottom: 35px;
+}
+
+/* Find us */
+/* line 146, ../sass/responsive.smalltouch.landscape.scss */
+#find-us h2 {
+  font-size: 35px;
+}
+/* line 150, ../sass/responsive.smalltouch.landscape.scss */
+#find-us p:first-child {
+  font-size: 16px;
+}
+
+/* line 155, ../sass/responsive.smalltouch.landscape.scss */
+.img-wrap {
+  /* arrow */
+}
+/* line 157, ../sass/responsive.smalltouch.landscape.scss */
+.img-wrap:after {
+  display: none;
+}
+/* line 161, ../sass/responsive.smalltouch.landscape.scss */
+.img-wrap .col-lg-2 {
+  width: 120px;
+  margin: 0 auto;
+}
+
+/* line 167, ../sass/responsive.smalltouch.landscape.scss */
+.front #page-title {
+  font-size: 40px;
+}
+
+/* line 171, ../sass/responsive.smalltouch.landscape.scss */
+#tasks {
+  display: none;
+}
+
+/*# sourceMappingURL=responsive.smalltouch.landscape.css.map */

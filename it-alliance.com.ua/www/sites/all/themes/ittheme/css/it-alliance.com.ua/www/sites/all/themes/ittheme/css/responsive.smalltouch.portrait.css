@@ -1,0 +1,142 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the default font size on small touch devices */
+/* line 16, ../sass/responsive.smalltouch.portrait.scss */
+body {
+  font-size: 100%;
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+/* line 26, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle {
+  /* The toggle link */
+  /* Menu items */
+}
+/* line 28, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle h2 {
+  margin-bottom: 5px;
+}
+/* line 31, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle h2 a {
+  background: #eee;
+  border: 2px solid #ccc;
+  padding: 2px 10px;
+}
+/* line 39, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle ul.menu li a {
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 45, ../sass/responsive.smalltouch.portrait.scss */
+.view-display-id-apple, .view-display-id-notebook, .pane-views-categories-pc, .pane-views-categories-phone {
+  display: none;
+}
+
+/* Page title  */
+/* line 50, ../sass/responsive.smalltouch.portrait.scss */
+.front #top p {
+  padding-bottom: 60px;
+}
+
+/* line 54, ../sass/responsive.smalltouch.portrait.scss */
+.front #page-title {
+  font-size: 25px;
+}
+
+/* line 58, ../sass/responsive.smalltouch.portrait.scss */
+.front #why h2 {
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+/* Why panel */
+/* line 64, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why {
+  padding: 35px 10px;
+}
+/* line 67, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why h2 {
+  font-size: 14px;
+  text-align: center;
+}
+/* line 74, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-top .block-content p:first-child {
+  font-size: 13px;
+}
+/* line 78, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-top .block-content p:nth-child(2) {
+  font-size: 13px;
+}
+/* line 85, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-first .block-content, #mini-panel-why .region-three-33-second .block-content, #mini-panel-why .region-three-33-third .block-content {
+  padding-bottom: 14px;
+}
+/* line 88, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-first .block-content p:first-child, #mini-panel-why .region-three-33-second .block-content p:first-child, #mini-panel-why .region-three-33-third .block-content p:first-child {
+  font-size: 14px;
+}
+/* line 91, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-first .block-content p:first-child:before, #mini-panel-why .region-three-33-second .block-content p:first-child:before, #mini-panel-why .region-three-33-third .block-content p:first-child:before {
+  font-size: 32px;
+}
+/* line 96, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-first .block-content p:nth-child(2), #mini-panel-why .region-three-33-second .block-content p:nth-child(2), #mini-panel-why .region-three-33-third .block-content p:nth-child(2) {
+  margin-left: 37px;
+  font-size: 9px;
+}
+/* line 100, ../sass/responsive.smalltouch.portrait.scss */
+#mini-panel-why .region-three-33-first .block-content p:nth-child(3), #mini-panel-why .region-three-33-second .block-content p:nth-child(3), #mini-panel-why .region-three-33-third .block-content p:nth-child(3) {
+  font-size: 11px;
+}
+
+/* Our skils */
+/* line 110, ../sass/responsive.smalltouch.portrait.scss */
+#our-skills h2 {
+  font-size: 20px;
+}
+/* line 114, ../sass/responsive.smalltouch.portrait.scss */
+#our-skills .skills-description {
+  font-size: 12px;
+}
+
+/* Stage works */
+/* line 122, ../sass/responsive.smalltouch.portrait.scss */
+#stage-works h2 {
+  font-size: 20px;
+}
+
+/* Trust us */
+/* line 130, ../sass/responsive.smalltouch.portrait.scss */
+#trust-us h2 {
+  font-size: 22px;
+  margin: 70px 0 30px 0;
+}
+/* line 135, ../sass/responsive.smalltouch.portrait.scss */
+#trust-us img {
+  margin-bottom: 30px;
+}
+
+/* Find us */
+/* line 142, ../sass/responsive.smalltouch.portrait.scss */
+#find-us h2 {
+  font-size: 22px;
+}
+/* line 146, ../sass/responsive.smalltouch.portrait.scss */
+#find-us p:first-child {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=responsive.smalltouch.portrait.css.map */

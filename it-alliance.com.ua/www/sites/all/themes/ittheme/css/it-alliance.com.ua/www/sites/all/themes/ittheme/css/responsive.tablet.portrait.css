@@ -1,0 +1,54 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+/* line 16, ../sass/responsive.tablet.portrait.scss */
+html {
+  font-size: 81.3%;
+}
+
+/* line 20, ../sass/responsive.tablet.portrait.scss */
+.view-display-id-apple, .view-display-id-notebook {
+  display: none;
+}
+
+/* line 24, ../sass/responsive.tablet.portrait.scss */
+.front #why h2 {
+  padding: 90px 0;
+  font-size: 40px;
+}
+/* line 28, ../sass/responsive.tablet.portrait.scss */
+.front #why h2 h2 {
+  text-align: center;
+}
+
+/* line 33, ../sass/responsive.tablet.portrait.scss */
+#mini-panel-why {
+  padding: 35px 10px 35px 10px;
+}
+/* line 36, ../sass/responsive.tablet.portrait.scss */
+#mini-panel-why h2 {
+  text-align: center;
+}
+
+/* line 42, ../sass/responsive.tablet.portrait.scss */
+#our-skills .skills-description {
+  padding-left: 0;
+}
+
+/* line 47, ../sass/responsive.tablet.portrait.scss */
+.img-wrap {
+  /* arrow */
+}
+/* line 49, ../sass/responsive.tablet.portrait.scss */
+.img-wrap:after {
+  display: none;
+}
+
+/*# sourceMappingURL=responsive.tablet.portrait.css.map */

@@ -1,0 +1,21 @@
+name = BONUS* Adminimal theme
+description = Based on Adminimal.
+core = 7.x
+base theme  = adminimal
+release = 7.x-3.x
+engine = phptemplate
+screenshot  = screenshot.png
+stylesheets[screen][] = styles.css
+
+regions[hidden] = Hidden
+regions[content_before] = Before Content
+regions[sidebar_left] = Sidebar Left
+regions[content] = Content
+regions[sidebar_right] = Sidebar Right
+regions[content_after] = After Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[sidebar_first] = First sidebar (Hidden)
+regions_hidden[] = hidden
+regions_hidden[] = sidebar_first

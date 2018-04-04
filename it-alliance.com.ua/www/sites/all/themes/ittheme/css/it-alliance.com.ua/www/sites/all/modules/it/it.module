@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file it.module
+ * Helper functions for IT Alliance site.
+ */
+
+/**
+ * Implements hook_views_pre_build().
+ */
+function it_views_pre_build(&$view) {
+  if ($view->name == 'cost') {
+		if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+			$custom_args = array(
+				"1" => "4", // Apple
+				"2" => "391", // iPhone
+				"3" => "498", // iPad
+				"5" => "225", // macBock
+				"202" => "228", // apple computers
+				"17" => "184", // phone
+				"23" => "683", // iphone
+				"7" => "16", // laptops
+				"27" => "29", // PC
+			);
+			// Set custom arg if exist
+			if (isset($custom_args[arg(2)])) {
+				$arg = $custom_args[arg(2)];
+			}
+			else {
+				$arg = arg(2);		
+			}
+			unset($view->filter['tid']->value);
+			$view->filter['tid']->value = array($arg => $arg);
+		}
+  }
+}

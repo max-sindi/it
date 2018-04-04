@@ -1,0 +1,5 @@
+name = IT Alliance
+description = Helper functions for IT Alliance site
+dependencies[] = views
+package = IT Alliance
+core = 7.x

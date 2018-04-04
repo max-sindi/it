@@ -1,0 +1,19 @@
+/*******************************************************************************
+ * _colors.scss
+ *
+ * Variables: Contains variables relating to colors.
+ ******************************************************************************/
+
+// Basic Color
+$white:                 #fff !default;
+$black:                 #000;
+
+// Links
+$linkColor:             red !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+// Header colors 
+$text-near-white: #f3f2f7;
+$text-red: #e15757;
+$text-blue: #52a4ff;
+$bg-blue: #2c88ef;
